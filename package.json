@@ -1,0 +1,22 @@
+{
+  "name": "encrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test",
+    "gen-key": "node genKey",
+    "enc": "node encFile.js foo",
+    "dec": "node decFile.js foo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
